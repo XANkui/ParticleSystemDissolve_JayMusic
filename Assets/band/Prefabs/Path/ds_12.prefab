@@ -1,0 +1,572 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4789983053835159987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4789983053835159980}
+  - component: {fileID: 4789983053835159982}
+  - component: {fileID: 4789983053835159981}
+  m_Layer: 0
+  m_Name: ds_12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4789983053835159980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4789983053835159987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.4451, y: -0.097, z: -0.15}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4789983053835159982
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4789983053835159987}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: a429208ae824a5c468f6a0da741a3803, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8.54, y: 1.06}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &4789983053835159981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4789983053835159987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -333801856, guid: aa0b1eebb5db27a419fa4564bbe5c9c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasOnStart: 0
+  hasOnPlay: 0
+  hasOnUpdate: 0
+  hasOnStepComplete: 0
+  hasOnComplete: 1
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onPlay:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onStepComplete:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4789983053835159987}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  delay: 0
+  duration: 5
+  easeType: 4
+  easeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  loops: 1
+  loopType: 0
+  orientType: 2
+  lookAtTransform: {fileID: 0}
+  lookAtPosition: {x: 0, y: 0, z: 0}
+  lookAhead: 1
+  autoPlay: 1
+  autoKill: 1
+  relative: 0
+  isLocal: 1
+  isClosedPath: 0
+  pathResolution: 10
+  pathMode: 1
+  lockRotation: 0
+  assignForwardAndUp: 0
+  forwardDirection: {x: 0, y: 0, z: 1}
+  upDirection: {x: 0, y: 1, z: 0}
+  wps:
+  - {x: -0.3140414, y: -0.045396745, z: 0.20633584}
+  - {x: -0.141076, y: 0.018024653, z: 0.36424243}
+  - {x: 0.082032844, y: 0.021373272, z: 0.4240129}
+  - {x: 0.22550647, y: 0.01817441, z: 0.4199266}
+  - {x: 0.3851936, y: 0.032451868, z: 0.28250617}
+  - {x: 0.43229187, y: 0.033943176, z: 0.19585884}
+  - {x: 0.46492338, y: 0.023604631, z: 0.07616103}
+  - {x: 0.46795076, y: 0.015885413, z: -0.06828344}
+  - {x: 0.41874048, y: 0.028392553, z: -0.17112017}
+  - {x: 0.23979475, y: 0.07550444, z: -0.3098318}
+  - {x: 0.02257137, y: 0.13919246, z: -0.43989205}
+  - {x: -0.1559838, y: 0.18337259, z: -0.43934703}
+  - {x: -0.27284467, y: 0.20191461, z: -0.37724984}
+  - {x: -0.3430494, y: 0.19008493, z: -0.19080067}
+  - {x: -0.34830743, y: 0.22178447, z: -0.010630131}
+  fullWps: []
+  path:
+    type: 1
+    subdivisionsXSegment: 10
+    subdivisions: 160
+    wps:
+    - {x: -0.4451, y: -0.097, z: -0.15}
+    - {x: -0.3140414, y: -0.045396745, z: 0.20633584}
+    - {x: -0.141076, y: 0.018024653, z: 0.36424243}
+    - {x: 0.082032844, y: 0.021373272, z: 0.4240129}
+    - {x: 0.22550647, y: 0.01817441, z: 0.4199266}
+    - {x: 0.3851936, y: 0.032451868, z: 0.28250617}
+    - {x: 0.43229187, y: 0.033943176, z: 0.19585884}
+    - {x: 0.46492338, y: 0.023604631, z: 0.07616103}
+    - {x: 0.46795076, y: 0.015885413, z: -0.06828344}
+    - {x: 0.41874048, y: 0.028392553, z: -0.17112017}
+    - {x: 0.23979475, y: 0.07550444, z: -0.3098318}
+    - {x: 0.02257137, y: 0.13919246, z: -0.43989205}
+    - {x: -0.1559838, y: 0.18337259, z: -0.43934703}
+    - {x: -0.27284467, y: 0.20191461, z: -0.37724984}
+    - {x: -0.3430494, y: 0.19008493, z: -0.19080067}
+    - {x: -0.34830743, y: 0.22178447, z: -0.010630131}
+    controlPoints:
+    - a: {x: -0.3140414, y: -0.045396745, z: 0.20633584}
+      b: {x: 0, y: 0, z: 0}
+    - a: {x: -0.35356545, y: 0.253484, z: 0.1695404}
+      b: {x: 0, y: 0, z: 0}
+    length: 2.9093108
+    wpLengths:
+    - 0
+    - 0.38373908
+    - 0.24615873
+    - 0.23239604
+    - 0.14647302
+    - 0.21211109
+    - 0.099773265
+    - 0.12479042
+    - 0.14524409
+    - 0.117185466
+    - 0.2316181
+    - 0.26179063
+    - 0.18613754
+    - 0.13734768
+    - 0.20095229
+    - 0.18355706
+    isFinalized: 1
+    timesTable:
+    - 0.00625
+    - 0.0125
+    - 0.01875
+    - 0.025
+    - 0.03125
+    - 0.0375
+    - 0.04375
+    - 0.05
+    - 0.056250002
+    - 0.0625
+    - 0.06875
+    - 0.075
+    - 0.081250004
+    - 0.0875
+    - 0.09375
+    - 0.1
+    - 0.10625
+    - 0.112500004
+    - 0.11875
+    - 0.125
+    - 0.13125001
+    - 0.1375
+    - 0.14375
+    - 0.15
+    - 0.15625
+    - 0.16250001
+    - 0.16875
+    - 0.175
+    - 0.18125
+    - 0.1875
+    - 0.19375001
+    - 0.2
+    - 0.20625
+    - 0.2125
+    - 0.21875
+    - 0.22500001
+    - 0.23125
+    - 0.2375
+    - 0.24375
+    - 0.25
+    - 0.25625
+    - 0.26250002
+    - 0.26875
+    - 0.275
+    - 0.28125
+    - 0.2875
+    - 0.29375002
+    - 0.3
+    - 0.30625
+    - 0.3125
+    - 0.31875
+    - 0.32500002
+    - 0.33125
+    - 0.3375
+    - 0.34375
+    - 0.35
+    - 0.35625002
+    - 0.3625
+    - 0.36875
+    - 0.375
+    - 0.38125
+    - 0.38750002
+    - 0.39375
+    - 0.4
+    - 0.40625
+    - 0.4125
+    - 0.41875002
+    - 0.425
+    - 0.43125
+    - 0.4375
+    - 0.44375
+    - 0.45000002
+    - 0.45625
+    - 0.4625
+    - 0.46875
+    - 0.475
+    - 0.48125002
+    - 0.4875
+    - 0.49375
+    - 0.5
+    - 0.50625
+    - 0.5125
+    - 0.51875
+    - 0.52500004
+    - 0.53125
+    - 0.5375
+    - 0.54375
+    - 0.55
+    - 0.55625004
+    - 0.5625
+    - 0.56875
+    - 0.575
+    - 0.58125
+    - 0.58750004
+    - 0.59375
+    - 0.6
+    - 0.60625
+    - 0.6125
+    - 0.61875004
+    - 0.625
+    - 0.63125
+    - 0.6375
+    - 0.64375
+    - 0.65000004
+    - 0.65625
+    - 0.6625
+    - 0.66875
+    - 0.675
+    - 0.68125004
+    - 0.6875
+    - 0.69375
+    - 0.7
+    - 0.70625
+    - 0.71250004
+    - 0.71875
+    - 0.725
+    - 0.73125
+    - 0.7375
+    - 0.74375004
+    - 0.75
+    - 0.75625
+    - 0.7625
+    - 0.76875
+    - 0.77500004
+    - 0.78125
+    - 0.7875
+    - 0.79375
+    - 0.8
+    - 0.80625004
+    - 0.8125
+    - 0.81875
+    - 0.825
+    - 0.83125
+    - 0.83750004
+    - 0.84375
+    - 0.85
+    - 0.85625
+    - 0.8625
+    - 0.86875004
+    - 0.875
+    - 0.88125
+    - 0.8875
+    - 0.89375
+    - 0.90000004
+    - 0.90625
+    - 0.9125
+    - 0.91875
+    - 0.925
+    - 0.93125004
+    - 0.9375
+    - 0.94375
+    - 0.95
+    - 0.95625
+    - 0.96250004
+    - 0.96875
+    - 0.975
+    - 0.98125
+    - 0.9875
+    - 0.99375004
+    - 1
+    lengthsTable:
+    - 0.0071054287
+    - 0.026872426
+    - 0.05697798
+    - 0.095100656
+    - 0.13892138
+    - 0.1861247
+    - 0.23440102
+    - 0.281451
+    - 0.32499477
+    - 0.36279416
+    - 0.39313874
+    - 0.4201618
+    - 0.44565928
+    - 0.46991044
+    - 0.49316776
+    - 0.515655
+    - 0.537569
+    - 0.5590836
+    - 0.5803565
+    - 0.6015382
+    - 0.6227814
+    - 0.6443234
+    - 0.66647696
+    - 0.68915623
+    - 0.7121897
+    - 0.73536235
+    - 0.758428
+    - 0.78111804
+    - 0.80314827
+    - 0.8242236
+    - 0.84404284
+    - 0.86230296
+    - 0.8789604
+    - 0.8943127
+    - 0.9085679
+    - 0.9219381
+    - 0.9346506
+    - 0.94696105
+    - 0.9591643
+    - 0.97159785
+    - 0.98463523
+    - 0.99867105
+    - 1.0141364
+    - 1.0316665
+    - 1.0510967
+    - 1.0719852
+    - 1.0938456
+    - 1.1161658
+    - 1.1384189
+    - 1.1600689
+    - 1.1805737
+    - 1.1993874
+    - 1.2159616
+    - 1.2299777
+    - 1.2420504
+    - 1.2525656
+    - 1.2618716
+    - 1.2703153
+    - 1.2782359
+    - 1.2859558
+    - 1.2937771
+    - 1.301985
+    - 1.3108561
+    - 1.3206683
+    - 1.3312161
+    - 1.3420852
+    - 1.3532461
+    - 1.3646687
+    - 1.3763235
+    - 1.3881816
+    - 1.4002156
+    - 1.4124001
+    - 1.4247116
+    - 1.4371297
+    - 1.4496764
+    - 1.4627932
+    - 1.4764766
+    - 1.4905579
+    - 1.5048708
+    - 1.5192508
+    - 1.5335369
+    - 1.5475726
+    - 1.5612082
+    - 1.574303
+    - 1.5867298
+    - 1.5983412
+    - 1.6090511
+    - 1.6190727
+    - 1.6286486
+    - 1.6380429
+    - 1.6475452
+    - 1.6574676
+    - 1.668137
+    - 1.679883
+    - 1.69303
+    - 1.7078927
+    - 1.7246332
+    - 1.7430756
+    - 1.7630016
+    - 1.7841806
+    - 1.8063759
+    - 1.8293447
+    - 1.8528425
+    - 1.8766215
+    - 1.9004327
+    - 1.9240267
+    - 1.9472686
+    - 1.9713931
+    - 1.9965332
+    - 2.0223496
+    - 2.0485048
+    - 2.074664
+    - 2.1004996
+    - 2.1256924
+    - 2.1499374
+    - 2.1729527
+    - 2.194489
+    - 2.214597
+    - 2.23404
+    - 2.2529647
+    - 2.271431
+    - 2.289469
+    - 2.307083
+    - 2.3242526
+    - 2.3409376
+    - 2.3570805
+    - 2.3726099
+    - 2.3874443
+    - 2.4015703
+    - 2.4150803
+    - 2.428054
+    - 2.4405875
+    - 2.4528003
+    - 2.4648404
+    - 2.4768884
+    - 2.4891565
+    - 2.5018814
+    - 2.515317
+    - 2.5297453
+    - 2.5456352
+    - 2.5629568
+    - 2.5814779
+    - 2.6009245
+    - 2.6209981
+    - 2.6413877
+    - 2.661777
+    - 2.68185
+    - 2.7012982
+    - 2.7198274
+    - 2.7374039
+    - 2.754717
+    - 2.7719207
+    - 2.7890825
+    - 2.8062418
+    - 2.8234148
+    - 2.8406024
+    - 2.857795
+    - 2.8749812
+    - 2.8921525
+    - 2.9093108
+  pathType: 1
+  handlesType: 0
+  livePreview: 1
+  handlesDrawMode: 0
+  perspectiveHandleSize: 0.5
+  showIndexes: 1
+  pathColor: {r: 1, g: 1, b: 1, a: 0.5}
+  lastSrcPosition: {x: -0.4451, y: -0.097, z: -0.15}
+  wpsDropdown: 1

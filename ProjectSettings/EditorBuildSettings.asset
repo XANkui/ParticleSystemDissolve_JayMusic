@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 672575e7b5d90fb4692fbcba8a6c9e7e
+  - enabled: 0
+    path: Assets/Scenes/Dissolved.unity
+    guid: 785b95b41c92e2f40bbd1eb96643d3c3
+  - enabled: 0
+    path: Assets/Scenes/Dissolved_Speed_Music.unity
+    guid: b93ce635b818c26468a363d42bb11394
+  - enabled: 0
+    path: Assets/Scenes/Dissolved_Speed_Music_3DModel.unity
+    guid: d3efe8c56699e1741b002d89c8d8156e
+  - enabled: 1
+    path: Assets/Scenes/Dissolved_Speed_Music_3DModel_Light.unity
+    guid: 6e480ecd5487ecc44abf649cf7c838f4
+  m_configObjects: {}
